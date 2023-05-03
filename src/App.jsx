@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div className="app">
       <button onClick={onSubmit}>Показать посты</button>
-      {comments && <Comments />}
+      {comments && posts && <Comments />}
       {posts && <Posts />}
     </div>
   );
